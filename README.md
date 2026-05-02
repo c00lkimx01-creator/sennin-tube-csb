@@ -32,6 +32,13 @@ GitHubと連携するだけで、Dockerfileを自動認識してデプロイで�
  3. **"Builder"** で Dockerfile を選択。
  4. **"Port"** 設定を 8000 に変更します（重要）。
  5. **"Deploy"** をクリック。
+ 6.  6. ## 3. CSB (codesandbox)
+### 手順
+ 1. codesandbox にログインし、右上の**"import"** をクリック。
+ 2. **"Find by url"** を選択し、リポジトリを指定。
+ 3. 左側の**"codesandbox"**を選択。
+ 4. **"task"**start serverのクリック。
+ 5. previewsに800と表示されたらクリックリンクコピーで成功。
 ## 4. Google Cloud Run (サーバーレス)
 アクセスがある時だけ起動するスケーラブルな構成です。
 ### 事前準備
